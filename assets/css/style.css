@@ -1,0 +1,872 @@
+/*------------------------------------
+ *Author:Md Shorov Abedin
+ *Template:Task Front-end
+ *Version:1.0
+ *-------------------------------------
+ */
+
+
+/*--------Content----------
+* 01.header
+  02.Info Area
+  03.Service Area
+  04.About Area
+  05.Customer Review Area
+  06.Portfolio Area
+  07. Q & A Area
+  08.Job Offer Area
+  09.Footer
+  10.others
+    10.1.Sticky Navbaer
+    10.2.Preloader
+*----------------------------------
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+    transition: background 1s ease;
+}
+/*-----------------Start Header Area-----------------*/
+.header .header-top{
+    background:#fff;
+}
+.header .header-top p{
+    font-size: 15px;
+    font-weight: 600;
+    padding:22px 32px 18px 32px ;
+    margin-bottom: 0;
+}
+.header-area .banner-area{
+   background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+.header-area .banner-area nav {
+    background: rgba(72, 65, 65, 0.3);
+    border-bottom: 1px solid#4a4b4a;
+}
+.header-area .banner-area nav ul{
+    padding-right: 25px;
+}
+.header-area .banner-area nav ul li{
+    padding: 20px 25px;
+}
+.header-area .banner-area nav ul li a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.header-area .banner-area nav ul li:hover {
+    color: #589def;
+    display:block;
+    border-bottom: 2px solid#0d51a2;
+    transition: transform 0.3s ease;
+}
+.header-area .banner-area .banner-content{
+    padding-top: 65px;
+}
+.header-area .banner-area .banner-content .content-top{
+    margin-bottom: 140px;
+}
+.header-area .banner-area .banner-content .content-div1 h1{
+    color:#fff;
+    font-size: 38px;
+    padding-left: 75px;
+    font-weight: 600;
+}
+.header-area .banner-area .banner-content .content-div1 .p-left{
+    padding-left: 70px;
+}
+.header-area .banner-area .banner-content .content-div2 {
+    color: #030c00;
+    display: inline-block;
+    margin-top: 32px;
+    background:rgba(255, 255, 255, 0.6);
+    padding: 15px 70px;
+}
+.header-area .banner-area .banner-content .content-div2 span{
+    display: block;
+    font-size: 18px;
+    
+}
+.header-area .banner-area .banner-content .content-bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 27px;
+    padding-bottom: 30px;
+}
+.header-area .banner-area .banner-content .content-div3{
+    padding: 30px;
+    border: 8px solid #b4b6b3;
+    display: inline-block;
+}
+.header-area .banner-area .banner-content .content-div3 h4{
+    color: #fff;
+    font-size: 23px;
+}
+.header-area .banner-area .banner-content .content-div3 p{
+    font-size: 18px;
+    color: #fff;
+}
+.header-area .banner-area .banner-content .content-div3 span{
+    color: #7fceca;
+}
+/*-----------------End Header Area-----------------*/
+
+/*-----------------Start Info Area-----------------*/
+.site-main .info-area .flex-info{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.site-main .info-area .flex-info .info-item{
+ 
+}
+.site-main .info-area .flex-info .info-item h4{
+    font-size: 20px;
+    color: #000;
+    padding: 30px 22px;
+    margin-bottom: 45px;
+}
+.site-main .info-area .flex-info .info-item a{
+    background:#0070b9;
+    font-size: 11px;
+    color:#fff;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 18px;
+}
+.site-main .info-area .flex-info .info-item .m-b{
+    padding-bottom: 6px;
+}
+.site-main .info-area .flex-info .info-item .info-img{
+    height: 200px;
+}
+.site-main .info-area .flex-info .info-item .info-img span{
+    display: block;
+}
+.site-main .info-area .flex-info .info-item .info-img-1{
+    background:url("../img/banner/banner-sm-1.png") no-repeat;
+    background-size: cover;
+}
+.site-main .info-area .flex-info .info-item .info-img-2{
+   background:url("../img/banner/banner-sm-2.png") no-repeat; 
+   background-size: cover;
+}
+.site-main .info-area .flex-info .info-item .info-img-3{
+   background:url("../img/banner/banner-sm-3.png") no-repeat;
+   background-size: cover;
+}
+.site-main .info-area .flex-info .info-item .info-img-4{
+   background:url("../img/banner/banner-sm-4.png") no-repeat;
+   background-size: cover;
+}
+.site-main .info-area .flex-info .info-item .info-img-5{
+    background:url("../img/banner/banner-sm-5.png") no-repeat;
+    background-size: cover;
+}
+/*-----------------End Info Area-----------------*/
+
+/*-----------------Start Service Area-----------------*/
+.site-main .service-area{
+    padding-top: 40px;
+    background:#f2f2f3;
+    border-bottom: 10px solid #0070b9;
+}
+.site-main .service-area .service-content .h2 {
+    color:#0070b9;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-main .service-area .service-content .h2 span{
+    font-size: 10px;
+    padding: 7px;
+}
+.site-main .service-area .service-content .m-t{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.site-main .service-area .service-content .header-bg{
+    background: url("../img/rooms/header_bg.png") no-repeat;
+    background-size: cover;
+}
+.site-main .service-area .service-content .header-bg h1{
+    font-size: 40px;
+    padding-top: 6px;
+    padding-bottom: 17px;
+    font-weight: 600;
+}
+.site-main .service-area .service-content .header-bg span{
+    color: #0070b9;
+}
+.site-main .service-area .service-content .view-btn{
+    margin-top: 37px;
+}
+.site-main .service-area .service-content .view-btn a{
+    background:#0070b9;
+    font-size: 15px;
+    color:#fff;
+    padding: 7px 11px;
+    border-radius: 15px;
+}
+.site-main .service-area .service-content .view-btn span{
+    font-size: 16px;
+}
+.site-main .service-area .service-content .para-1{
+    padding: 0px 72px;
+    font-size: 17px;
+    margin-bottom: 38px;
+}
+.site-main .service-area .service-content .para-1 span{
+    color: #0070b9;
+}
+.site-main .service-area .service-content .para-2{
+    font-size: 17px;
+    margin-bottom: 28px;
+    letter-spacing: .6px;
+}
+.site-main .service-area .service-item-wrapper{
+    margin-bottom: 32px;
+}
+.site-main .service-area .service-item-wrapper .service-item {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 33px;
+}
+.site-main .service-area .service-item-wrapper .service-sub-item{
+    position: relative;
+    margin-bottom: -18px;
+}
+.site-main .service-area .service-item-wrapper .service-sub-item img{
+    width: 100%;
+}
+.site-main .service-area .service-item-wrapper .service-sub-item p{
+    position: absolute;
+    z-index: 1;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    text-align: center;
+}
+.site-main .service-area .service-item-wrapper .service-sub-item .p-y{
+    position: absolute;
+    bottom: -6px;
+}
+.site-main .service-area .service-content-b {
+    padding: 0px 25px;
+}
+.site-main .service-area .service-content-b p{
+    font-size: 16px;
+}
+.site-main .service-area .call-service-area {
+    background: url("../img/call_center.png") no-repeat;
+    background-size: auto;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    margin: -13px;
+        
+    margin-right: 0;
+}
+.site-main .service-area .call-service-area .top-text {
+    position: absolute;
+    top: 38%;
+    right: 33%;
+}
+.site-main .service-area .call-service-area .top-text p{
+    font-size: 18px;
+}
+.site-main .service-area .call-service-area  .flex-area{
+    display: flex;
+    justify-content: center;
+}
+.site-main .service-area .call-service-area  .call-btn-group{
+    display: flex;
+    align-items: baseline;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.site-main .service-area .call-service-area  .call-btn-group .call-btn{
+    display: flex;
+    align-items: center;
+}
+.site-main .service-area .call-service-area  .call-btn img{
+   width: 230px;
+   margin-right: -37%;
+}
+.site-main .service-area .call-service-area  .call-btn p{
+    color:#fff;
+    font-size: 24px;
+    padding-top: 12px;
+}
+/*-----------------End Service Area-----------------*/
+
+/*-----------------Start About Area-----------------*/
+.site-main .about-area{
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+.site-main .about-area .about-content .h2{
+    color:#0070b9;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-main .about-area .about-content .h2 span{
+    font-size: 10px;
+    padding: 7px;
+}
+.site-main .about-area .about-content .m-t{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.site-main .about-area .about-content .header-bg{
+    background: url("../img/section-2.png") no-repeat;
+    background-size: cover;
+}
+.site-main .about-area .about-content .header-bg h1{
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.site-main .about-area .about-content .header-bg span{
+    color: #0070b9;
+}
+.site-main .about-area .about-content .view-btn{
+    margin-top: 37px;
+    text-align: right;
+}
+.site-main .about-area .about-content .view-btn a{
+    background:#0070b9;
+    font-size: 15px;
+    color:#fff;
+    padding: 7px 11px;
+    border-radius: 15px;
+}
+.site-main .about-area .about-content .view-btn span{
+   font-size: 16px;
+}
+.site-main .about-area .flex-about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.site-main .about-area .flex-about .about-item{
+    text-align: center;
+}
+.site-main .about-area .flex-about .about-item .about-img img{
+    margin-bottom: 20px;
+}
+.site-main .about-area .flex-about .about-item .about-img p{
+    font-size: 15px;
+    font-weight: 600;
+}
+/*-----------------End About Area-----------------*/
+
+/*-----------------Start Customer Review Area-----------------*/
+.site-main .cutomers-review{
+    padding-top: 50px;
+    background: #eeeeee;
+}
+.site-main .cutomers-review .review-content {
+    position: relative;
+}
+.site-main .cutomers-review .review-content .h2{
+    color:#0070b9;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-main .cutomers-review .review-content .h2 span{
+    font-size: 10px;
+    padding: 7px;
+}
+.site-main .cutomers-review .review-content .m-t{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.site-main .cutomers-review .review-content .header-bg{
+    background: url("../img/section-3.png") no-repeat;
+    background-size: cover;
+}
+.site-main .cutomers-review .review-content .header-bg h1{
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.site-main .cutomers-review .review-content .header-bg span{
+    color: #0070b9;
+}
+.site-main .cutomers-review .review-content .view-btn{
+    margin-top: 37px;
+    text-align: right;
+}
+.site-main .cutomers-review .review-content .view-btn a{
+    background:#0070b9;
+    font-size: 15px;
+    color:#fff;
+    padding: 7px 11px;
+    border-radius: 15px;
+}
+.site-main .cutomers-review .review-content .view-btn span{
+    font-size: 16px;
+}
+.site-main .cutomers-review .review-content .para-1{
+    padding-bottom: 52px;
+    font-size: 17px;
+    color: #3d3e40;
+}
+.site-main .cutomers-review .review-area{
+    background: #f4f4f5;
+    padding: 44px 48px 65px 48px;
+}
+.site-main .cutomers-review .review-area .review-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 50px;
+}
+.site-main .cutomers-review .review-area .review-item{
+    background:#fff;
+    padding: 11px 17px;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 3px 0#c6c6c6;
+}
+.site-main .cutomers-review .review-area .review-item .review-sub-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.site-main .cutomers-review .review-area .review-item .review-sub-item span{
+    font-size: 22px;
+    color: #0372ba;
+}
+.site-main .cutomers-review .review-area .review-item .review-sub-item a{
+    color: #616366;
+    font-size: 15px;
+}
+.site-main .cutomers-review .review-area .review-item .review-sub-item .span{
+    color: #0372ba;
+    font-size: 15px;
+}
+.site-main .cutomers-review .review-area .review-item p{
+    font-size: 12px;
+    line-height: 24px;
+    color:#000;
+}
+.site-main .cutomers-review .button-area{
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    right: 0;
+}
+.site-main .cutomers-review .button-area .btn-m{
+    display: inline-block;
+    font-size: 20px;
+    background:#0372ba;
+    color:#fff;
+    border-radius: 10px;
+    padding: 5px 90px;
+}
+/*-----------------End Customer Review Area-----------------*/
+
+/*-----------------Start Portfolio  Area-----------------*/
+.site-main .portfolio-area{
+    padding-top: 40px;
+    background: #fff;
+}
+.site-main .portfolio-area .portfolio-content .h2{
+    color:#0070b9;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-main .portfolio-area .portfolio-content .h2 span{
+    font-size: 10px;
+    padding: 7px;
+}
+.site-main .portfolio-area .portfolio-content .m-t{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.site-main .portfolio-area .portfolio-content .header-bg{
+    background: url("../img/section-4/section-4.png") no-repeat;
+    background-size: cover;
+}
+.site-main .portfolio-area .portfolio-content .header-bg h1{
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.site-main .portfolio-area .portfolio-content .header-bg span{
+    color: #0070b9;
+}
+.site-main .portfolio-area .portfolio-content .view-btn{
+    margin-top: 37px;
+    text-align: right;
+}
+.site-main .portfolio-area .portfolio-content .view-btn a{
+    background:#0070b9;
+    font-size: 15px;
+    color:#fff;
+    padding: 7px 11px;
+    border-radius: 15px;
+}
+.site-main .portfolio-area .portfolio-content .view-btn span{
+    font-size: 16px;
+}
+.site-main .portfolio-area .wrapper-box{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item1{
+    padding-bottom: 34px;
+    position: relative;
+    z-index: 1;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item1 .p{
+    padding: 10px 27px;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item1 p{
+    background:#536277;
+    display: inline-block;
+    font-size: 22px;
+    color:#fff;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item1 .arrow{
+    height: 45px;
+    width: 45px;
+    background:#536277;
+    position: absolute;
+    bottom: 27px;
+    right: 48%;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item2{
+    display: flex;
+    justify-content: center;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item2 .sub-item .img1{
+    padding-right: 15px;
+}
+.site-main .portfolio-area .wrapper-box .portfolio-item2 .sub-item .img2{
+    padding-left: 15px;
+}
+/*-----------------End Portfolio  Area-----------------*/
+
+/*-----------------Start Q & A  Area-----------------*/
+.site-main .question-area{
+    background: #eeeeee;
+}
+.site-main .question-area .question-area-bg{
+    background: url("../img/section_5/img5.png") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: right;
+}
+.site-main .question-area .top-text{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#ccc;
+    margin-bottom: 25px;
+}
+.site-main .question-area .top-text .p1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.site-main .question-area .top-text a{
+    color: #616366;
+    font-size: 15px;
+}
+.site-main .question-area .top-text .span{
+    color: #0372ba;
+}
+.site-main .question-area .content-area p{
+    font-size: 12px;
+    padding-bottom: 24px;
+}
+.site-main .question-area .content-area .QA-area .wrap{
+   padding-bottom: 20px;
+}
+.site-main .question-area .content-area .QA-area .Q{
+    background:#0372ba;
+    border-radius: 19px;
+    display: inline-block;
+    padding: 5px 18px;
+    color:#fff;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+.site-main .question-area .content-area .QA-area .Q::before{
+    content: 'Q';
+    bottom: -6px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 36px;
+    background:#0372ba;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 24px;
+    color:#fff;
+    display: block;
+    position: absolute;
+}
+.site-main .question-area .content-area .QA-area .A{
+    background:#536277;
+    border-radius: 19px;
+    display: inline-block;
+    padding: 5px 18px;
+    color:#fff;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+.site-main .question-area .content-area .QA-area .A::before{
+    content: 'A';
+    bottom: -6px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 36px;
+    background:#536277;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 24px;
+    color:#fff;
+    display: block;
+    position: absolute;
+}
+/*-----------------End Q & A  Area-----------------*/
+
+/*-----------------Start Job Offer  Area-----------------*/
+/* .site-main .job-area {
+        padding: 0 50px;
+        padding-bottom: 50px;
+}
+
+.site-main .job-area .job-area-wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 8px;
+    text-align: center;
+}
+.site-main .job-area .job-area-wrapper .overlay-area{
+   display: none;
+}
+.site-main .job-area .job-area-wrapper .offer-content{
+    border: 3px solid #959796;
+}
+.site-main .job-area .job-area-wrapper .offer-item-1{
+    background: url(../img/section-6/);
+    background-size: cover;
+    padding: 20px;
+}
+.site-main .job-area .job-area-wrapper .offer-item-2{
+    height: 195px;
+    background-size: cover;
+    padding: 20px;
+}
+.site-main .job-area .job-area-wrapper .offer-item-3{
+    height: 195px;
+    background-size: cover;
+    padding: 20px;
+}
+.site-main .job-area .job-area-wrapper p{
+    font-size: 26px;
+    color: #fff;
+    padding-top: 35px;
+    margin-bottom: 0;
+    margin-top: -16px;
+}
+.site-main .job-area .job-area-wrapper span{
+    font-size: 16px;
+    color: #fff;
+}
+.site-main .job-area .job-area-wrapper .p1{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.site-main .job-area .job-area-wrapper .p2{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.site-main .job-area .job-area-wrapper .p3{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 59px;
+    font-size: 16px;
+    padding-top: 10px;
+} */
+.site-main .job-area .job-area-wrapper {
+    display: grid;
+    /* grid-template-columns:repeat( autofit,minmax(360px,1fr)); */
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    padding: 20px 70px;
+    text-align: center;
+    background: #fff;
+}
+.site-main .job-area .offer-item{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.offer-item:hover .shadow{
+  top:0}
+.banner-imga-area img{
+    width: 100%;
+    height: auto;
+}
+.shadow {
+    width: 90%;
+    height: auto;
+    background: 
+    rgba(67,71,70,.7);
+    position: absolute;
+    top: -111%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    left: 19px;
+}
+  .shadowtext {
+    max-width: 90%;
+    height: 154px;
+    padding: 14px;
+    margin: 20px;
+    position: relative;
+    border: 5px solid 
+    #A6A9AC;
+}
+.shadowtext h2{
+  font-size:26px;
+  color: #fff;
+  font-weight:400}
+.shadowtext p{
+  font-size:16px;
+  color: #ffffff;
+  font-weight:400;
+}
+/*-----------------End Job Offer  Area-----------------*/
+
+/*-----------------Start Footer  Area-----------------*/
+.site-main .footer-area .footer-top{
+    background: #f4f4f5;
+    padding-top: 22px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid#d4d4d4;
+    padding-bottom: 35px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top .item-area{
+    line-height: 10px;
+    color: #595757;
+    font-size: 14px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top .hr{
+    width: 22px;
+    background:#595757;
+    height: 4px;
+    margin-bottom: 13px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top .item-area .content-area .p1{
+    margin-bottom: 5px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top .item-area .content-area .m-l{
+    padding-left: 20px;
+}
+.site-main .footer-area .footer-top .content-wrapper-top .item-area .content-area ul li a{
+    color: #595757;
+}
+.site-main .footer-area .footer-top .content-wrapper-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+.site-main .footer-area .footer-top .content-wrapper-bottom .left-area .contact-info{
+    display: flex;
+    flex-direction: column;
+}
+.site-main .footer-area .footer-top .content-wrapper-bottom .right-area{
+    display: flex;
+    align-items: center;
+}
+.site-main .footer-area .footer-top .content-wrapper-bottom .right-area a{
+    font-size: 28px;
+    margin-left: 35px;
+    background:#595757;
+    color:#fff;
+    width: 160px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 5px 6px -3px#595757;
+    border: 4px outset #595757;
+}
+.site-main .footer-area .footer-bottom{
+    margin: 0;
+    padding-top: 16px;
+    color:#595757;
+    font-size: 12px;
+}
+/*-----------------Start Footer  Area-----------------*/
+
+
+ 

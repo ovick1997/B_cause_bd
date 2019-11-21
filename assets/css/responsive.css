@@ -1,0 +1,821 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+   
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .site-main .service-area .service-item-wrapper .service-sub-item .p-y {
+        position: absolute;
+        bottom: -10px;
+        font-size: 15px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+     /* Info Area */
+     .site-main .info-area .flex-info {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.4%;
+    }
+    /* Service area */
+    .site-main .service-area .service-content .para-1 {
+        padding: 0;
+        font-size: 17px;
+    }
+    .site-main .service-area .service-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+     .site-main .service-area .service-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .service-area .container{
+        max-width: max-content;
+    }
+    .site-main .service-area .service-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .service-area .service-content .view-btn {
+        margin-top: 10px;
+        display: block ruby;
+    }
+    .site-main .service-area .service-item-wrapper .service-item {
+        margin: 5px 27px;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 32px;
+    }
+    .site-main .service-area .service-content .para-1 {
+        padding: 0 25px;
+    }
+    .site-main .service-area .service-content .para-2 {
+        padding: 0 25px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item p {
+        font-size: 12px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item .p-y {
+        bottom: 1px;
+    }
+    .site-main .service-area .call-service-area .call-btn-group {
+        margin-top: 16%;
+    }
+    /* About Area  */
+    .site-main .about-area .about-content .m-t{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .about-area .about-content.header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .about-area .about-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .about-area .about-content .view-btn {
+        margin-top: 22px;
+        text-align: right;
+        display: block ruby;
+    }
+    /* Review Area */
+    .site-main .cutomers-review  .review-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .cutomers-review  .review-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .cutomers-review  .review-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .cutomers-review .review-content .view-btn {
+        margin-top: 22px;
+        text-align: right;
+        display: block ruby;
+    }
+    .site-main .cutomers-review .review-area .review-grid {
+        grid-template-columns: 46% 46%;
+        grid-gap: 50px;
+    }
+    /* Porfolio Area  */
+    .site-main .portfolio-area .portfolio-content .m-t{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .portfolio-area .portfolio-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .portfolio-area .portfolio-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .portfolio-area .portfolio-content .view-btn {
+        margin-top: 22px;
+        text-align: right;
+        display: block ruby;
+    }
+    /* Q & A Area */
+    .site-main .question-area .top-text .p1 {
+        font-size: 20px;
+    }
+    /* footer area */
+    .site-main .footer-area .footer-top .container {
+        max-width: max-content;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-top {
+        padding: 0px 25px;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-bottom .right-area {
+        margin-top: 25px;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    
+
+
+  }
+
+
+
+  @media (min-width: 768px) and (max-width: 990px){
+    /* Service Area */
+    .site-main .service-area .service-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+     .site-main .service-area .service-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .service-area .container{
+        max-width: 960px;
+    }
+    .site-main .service-area .service-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .service-area .service-content .view-btn {
+        margin-top: 10px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item .p-y {
+        bottom: -3px;
+    }
+  
+}
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* Header Section */
+    .header .header-top p {
+        font-size: 10px;
+        padding: 7px;
+    }
+    .header-area .banner-area .banner-content {
+        padding-top: 30px;
+    }
+    .header-area .banner-area .banner-content .content-div1 h1 {
+        font-size: 19px;
+        padding: 0px 25px;
+    }
+    .header-area .banner-area .banner-content .content-div1 .p-left {
+        padding: 0px 25px;
+    }
+    .header-area .banner-area .banner-content .content-div2 {
+        margin-top: 10px;
+        padding: 12px 25px;
+        display: inline-block;
+    }
+    .header-area .banner-area .banner-content .content-div2 span {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .header-area .banner-area .banner-content .content-top {
+        margin-bottom: 64px;
+    }
+    .header-area .banner-area .banner-content .content-bottom {
+        padding: 0;
+        margin: 0px 25px;
+        padding-bottom: 50px;
+    }
+    .header-area .banner-area .banner-content .content-div3 {
+        padding: 10px;
+    }
+    .header-area .banner-area .banner-content .content-div3 h4 {
+        font-size: 18px;
+    }
+    .header-area .banner-area .banner-content .content-div3 p {
+        font-size: 16px;
+    }
+     /* Info Area */
+     .site-main .info-area .flex-info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+     /* Service Area */
+     .site-main .service-area .service-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+     .site-main .service-area .service-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .service-area .container{
+        max-width: max-content;
+    }
+    .site-main .service-area .service-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .service-area .service-content .view-btn {
+        margin-top: 10px;
+    }
+    .site-main .service-area .service-content .para-1 {
+        padding: 0px 25px;
+        font-size: 16px;
+    }
+    .site-main .service-area .service-content .para-2 {
+        font-size: 16px;
+        padding: 0px 25px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item {
+        margin: 5px 25px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .site-main .service-area .service-item-wrapper .service-item p {
+        font-size: 12px;
+        bottom: 13px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item .p-y {
+        bottom: 5px;
+    }
+    /* Customer_Service */
+    .site-main .service-area .call-service-area {
+        border-bottom: none;
+    }
+    .site-main .service-area .call-service-area .call-btn-group {
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    .site-main .service-area .call-service-area .call-btn img {
+        margin-right: -50%;
+    }
+    .site-main .service-area .call-service-area .call-btn p {
+        font-size: 23px;
+    }
+    .site-main .service-area .call-service-area .top-text p {
+        font-size: 14px;
+        padding-left: 74px;
+    }
+    
+    /* about area */
+    .site-main .about-area .about-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .about-area .about-content  .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .about-area .about-content  .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .about-area .about-content .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .site-main .about-area .flex-about {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 25px;
+    }
+    /* Review area */
+    .site-main .cutomers-review .review-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .cutomers-review .review-content  .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .cutomers-review .review-content  .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .cutomers-review .review-content  .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .site-main .cutomers-review .review-content .para-1 {
+        padding: 0px 25px 30px 25px;
+        line-height: 176%;
+    }
+    .site-main .cutomers-review .review-area .review-grid {
+        grid-gap: 30px;
+        grid-template-columns: 47.5% 47.5%;
+    }
+    .site-main .cutomers-review .review-area .review-item .review-sub-item {
+        flex-direction: column;
+    }
+    .site-main .cutomers-review .review-area .review-item .review-sub-item span {
+        font-size: 18px;
+    }
+
+    /* Portfolio area */
+    .site-main .portfolio-area .portfolio-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .portfolio-area .portfolio-content  .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .portfolio-area .portfolio-content  .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .portfolio-area .portfolio-content .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /* Job Area */
+    .site-main .job-area .job-area-wrapper {
+        grid-template-columns: auto;
+        
+    }
+    /* footer */
+    .site-main .footer-area .footer-top .content-wrapper-top .item-area {
+        margin-bottom: 20px;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-top {
+        padding: 0px 0px;
+        padding-bottom: 20px;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-bottom .right-area a {
+        margin-left: 60px;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-bottom .right-area {
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    
+    .shadow {
+        width: 98%;
+        height: auto;
+        background: 
+        rgba(67,71,70,.7);
+        position: absolute;
+        top: -111%;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -o-transition: .5s;
+        left: 4px;
+    }
+}
+
+
+  @media (min-width: 571px) and (max-width: 767px){
+      /* Service Area */
+    .site-main .service-area .service-item-wrapper .service-item .p-y {
+        bottom: 14px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item p {
+        font-size: 12px;
+        bottom: 25px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* Header Section */
+    .header .header-top p {
+        font-size: 10px;
+        padding: 7px;
+    }
+    .header-area .banner-area .banner-content {
+        padding-top: 30px;
+    }
+    .header-area .banner-area .banner-content .content-div1 h1 {
+        font-size: 17px;
+        padding: 0px 25px;
+    }
+    .header-area .banner-area .banner-content .content-div1 .p-left {
+        padding: 0px 25px;
+    }
+    .header-area .banner-area .banner-content .content-div2 {
+        margin-top: 10px;
+        padding: 8px 25px;
+        display: block;
+    }
+    .header-area .banner-area .banner-content .content-div2 span {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .header-area .banner-area .banner-content .content-top {
+        margin-bottom: 64px;
+    }
+    .header-area .banner-area .banner-content .content-bottom {
+        padding: 0;
+        margin: 0px 25px;
+        padding-bottom: 50px;
+    }
+    .header-area .banner-area .banner-content .content-div3 {
+        padding: 10px;
+    }
+    .header-area .banner-area .banner-content .content-div3 h4 {
+        font-size: 18px;
+    }
+    .header-area .banner-area .banner-content .content-div3 p {
+        font-size: 16px;
+    }
+    /* Info Area */
+    .site-main .info-area .flex-info {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .site-main .info-area .flex-info .info-item .info-img-1, 
+    .site-main .info-area .flex-info .info-item .info-img-2, 
+    .site-main .info-area .flex-info .info-item .info-img-3, 
+    .site-main .info-area .flex-info .info-item .info-img-4, 
+    .site-main .info-area .flex-info .info-item .info-img-5 {
+        background-position: center;
+    }
+     /* Service Area */
+     .site-main .service-area .service-content .m-t {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+     .site-main .service-area .service-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .service-area .service-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .service-area .service-content .view-btn {
+        margin-top: 10px;
+    }
+    .site-main .service-area .service-content .para-1 {
+        padding: 0px 25px;
+        font-size: 16px;
+    }
+    .site-main .service-area .service-content .para-2 {
+        font-size: 16px;
+        padding: 0px 25px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item {
+        margin: 5px 25px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .site-main .service-area .service-item-wrapper .service-item p {
+        font-size: 12px;
+    }
+    .site-main .service-area .service-item-wrapper .service-item .p-y {
+        bottom: -10px;
+    }
+    .site-main .service-area .call-service-area .flex-area {
+        display: block;
+    }
+    .site-main .service-area .call-service-area .call-btn-group {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .site-main .service-area .call-area{
+        position: absolute;
+        bottom: 15px;
+        left: 25px;
+    }
+    .site-main .service-area .call-service-area .top-text {
+        top: -35px;
+        right: 0;
+        left: 0;
+    }
+    .site-main .service-area .call-service-area .top-text p {
+        font-size: 11px;
+        display: ruby;
+    }
+    .site-main .service-area .call-service-area .call-btn img {
+        width: 170px;
+        margin-right: -37%;
+    }
+    .site-main .service-area .call-service-area {
+      border: 0px;
+    }
+    .site-main .service-area .call-service-area .call-btn p {
+        font-size: 17px;
+    }
+    /* about area */
+    .site-main .about-area {
+        padding-top: 27px;
+        padding-bottom: 23px;
+    }
+    .site-main .about-area .flex-about {
+        display: block;
+    }
+    .site-main .about-area .about-img {
+      padding-bottom: 20px;
+    }
+    .site-main .about-area .service-content .m-t{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .about-area .about-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .about-area .about-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+   
+
+    .site-main .about-area .about-content .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /* Q & A Area */
+    .site-main .question-area .question-area-bg .container {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+  
+    .site-main .question-area .question-area-bg {
+        /* background: url("../img/section_5/img5.png") no-repeat;
+            background-position-x: 0%;
+            background-position-y: 0%;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-position: right; */
+        background: none;
+    }
+    .site-main .question-area .top-text {
+        padding: 0;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .site-main .question-area .content-area .QA-area .wrap {
+        padding-bottom: 5px;
+    }
+    .site-main .question-area .content-area p {
+        padding: 0px 25px;
+        margin-bottom: 20px;
+    }
+    .site-main .question-area .top-text a {
+        padding-left: 25px;
+    }
+    .site-main .question-area .top-text .p1 {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px 25px;
+        margin-bottom: 0;
+    }
+    .site-main .question-area .content-area .QA-area .Q {
+        margin: 10px 25px;
+    }
+    .site-main .question-area .content-area .QA-area .Q::before {
+        display: none;
+    }
+    .site-main .question-area .content-area .QA-area .A {
+        margin: 10px 25px;
+    }
+    .site-main .question-area .content-area .QA-area .A::before {
+       display: none;
+    }
+    /* review area */
+    .site-main .cutomers-review .review-content .m-t{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .cutomers-review .review-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .cutomers-review .review-content .header-bg h1 {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .cutomers-review .review-content .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .site-main .cutomers-review .button-area .btn-m {
+        font-size: 18px;
+        padding: 5px 50px;
+    }
+    .site-main .cutomers-review .review-area {
+        padding: 40px 30px;
+    }
+    .site-main .cutomers-review .review-area .review-grid {
+        grid-template-columns: auto;
+        grid-gap: 5px;
+    }
+    .site-main .cutomers-review .review-area .review-item .review-sub-item span {
+        font-size: 12px;
+    }
+    .site-main .cutomers-review .review-area .review-item .review-sub-item a {
+        font-size: 12px;
+    }
+    .site-main .cutomers-review .review-area .review-item p {
+        line-height: 22px;
+    }
+
+    /* portfolio area */
+    .site-main .portfolio-area .portfolio-content .m-t{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .site-main .portfolio-area .portfolio-content .header-bg {
+        background-size: contain;
+        background-position: center;
+    }
+    .site-main .portfolio-area .portfolio-content .header-bg h1{
+        font-size: 18px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .site-main .portfolio-area .portfolio-content .view-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item2 {
+        display: block;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item2 .sub-item .img1 {
+        padding-right: 0;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item2 .sub-item .img2 {
+        padding-left: 0;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item1 p {
+        font-size: 16px;
+        padding: 20px 66px;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item1 .p {
+        padding: 20px 42px;
+        font-size: 16px;
+    }
+    .site-main .portfolio-area .wrapper-box .portfolio-item1 .arrow {
+        height: 40px;
+        width: 40px;
+        bottom: 30px;
+        right: 45%;
+  }
+  /* Job Area */
+  .site-main .job-area {
+    padding: 0px;
+}
+  .site-main .job-area .job-area-wrapper {
+    grid-template-columns: auto;
+    grid-gap: 22px;
+    }
+    .site-main .job-area .job-area-wrapper .p1 {
+        padding-bottom: 49px;
+        font-size: 16px;
+    }
+    .site-main .job-area .job-area-wrapper p {
+        font-size: 18px;
+    }
+    .site-main .job-area .job-area-wrapper .p2 {
+        padding-bottom: 50px;
+        font-size: 16px;
+    }
+    site-main .job-area .job-area-wrapper .p3 {
+        padding-bottom: 67px;
+        font-size: 16px;
+    }
+    .shadow {
+        width: 98%;
+        height: auto;
+        background: 
+        rgba(67,71,70,.7);
+        position: absolute;
+        top: -111%;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -o-transition: .5s;
+        left: 4px;
+    }
+  /* Footer Area */
+  .site-main .footer-area .footer-top .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+.site-main .footer-area .footer-top .content-wrapper-top {
+    padding: 0px 25px;
+    display: block;
+}
+.site-main .footer-area .footer-top .content-wrapper-bottom {
+    padding: 17px 25px;
+    }
+  .site-main .footer-area .footer-top .content-wrapper-top .item-area {
+    padding-bottom: 20px;
+
+}
+  .site-main .footer-area .footer-top .content-wrapper-bottom .right-area {
+    padding: 0px 18px;
+    padding-top: 16px;
+    margin: 0 auto;
+    }
+    .site-main .footer-area .footer-top .content-wrapper-bottom .right-area a {
+        font-size: 15px;
+        width: 109px;
+        margin-left: 12px;
+    }
+    .site-main .footer-area .footer-bottom {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+
+
+}
+
+/* Custom Style */
+@media (min-width: 481px) and (max-width: 525px){
+
+    .site-main .question-area .content-area .QA-area .Q::before {
+        display: none;
+    }
+    .site-main .question-area .content-area .QA-area .A::before {
+        display: none;
+    }
+}
+
+  @media (min-width: 357px) and (max-width: 480px) {
+    /* service area */
+  .site-main .service-area .service-item-wrapper .service-item p {
+      font-size: 15px;
+  }
+  .site-main .service-area .service-item-wrapper .service-item .p-y {
+      bottom: -5px;
+      font-size: 13px;
+  }
+}
+@media (min-width: 319px) and (max-width: 335px) {
+    .site-main .job-area .job-area-wrapper .p2 {
+        padding-bottom: 27px ;
+    }
+    /* .site-main .job-area .job-area-wrapper .p1 {
+        padding-bottom: 27px;
+        font-size: 16px;
+    } */
+}
